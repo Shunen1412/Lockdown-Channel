@@ -34,7 +34,7 @@ exports.run = async (client, message, [time, reason]) => {
     .setColor(0xDD2E44)
     .setTimestamp()
     .setTitle("🔓 MOD LOCK [UNLOCK] 🔓")
-    .setDescription(" ");
+    .setDescription("This channel is now unlock");
 
   if (message.channel.permissionsFor(message.author.id).has("MUTE_MEMBERS") === false) { 
     const embed = new new Discord.RichEmbed()
