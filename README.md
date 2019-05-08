@@ -1,4 +1,4 @@
-# Lockdown-Channels
+# Lockdown-Channel
 (Discord.js)
 
 # Modules
